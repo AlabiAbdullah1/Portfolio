@@ -10,9 +10,8 @@ function App() {
   const [portfolioData, setPortfolioData] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:9000/portfolio").then((response) => {
+    axios.get("https://portfolio-z7dt.onrender.com").then((response) => {
       setPortfolioData(response.data[0]);
-      console.log(response.data[0]);
     });
   }, []);
 
