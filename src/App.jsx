@@ -5,17 +5,20 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Loading from "./components/Loading";
 
 function App() {
   const [portfolioData, setPortfolioData] = useState(null);
 
   useEffect(() => {
-    axios.get("https://portfolio-z7dt.onrender.com").then((response) => {
-      setPortfolioData(response.data[0]);
-    });
+    axios
+      .get("https://portfolio-z7dt.onrender.com/portfolio")
+      .then((response) => {
+        setPortfolioData(response.data[0]);
+      });
   }, []);
 
-  if (!portfolioData) return <div>Loading...</div>;
+  if (!portfolioData) return <Loading />;
 
   return (
     <Router>
