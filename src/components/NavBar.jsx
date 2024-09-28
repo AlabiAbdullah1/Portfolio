@@ -57,7 +57,10 @@ const NavBar = ({ activeTab }) => {
             </Link>
           </div>
           <div className="bg-white w-6 h-6 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-300 transition">
-            <Link to="https://linkedin.com/in/your-profile" target="_blank">
+            <Link
+              to="https://www.linkedin.com/in/alabi-abdullahi-7a313523a"
+              target="_blank"
+            >
               <FaLinkedin className="text-blue-600 w-4 h-4" />
             </Link>
           </div>
