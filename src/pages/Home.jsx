@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaCode, FaReact, FaNodeJs, FaServer } from "react-icons/fa";
-import { SiMysql, SiPostgresql, SiMongodb } from "react-icons/si";
+import { SiMysql, SiPostgresql, SiMongodb, SiNestjs, SiDocker, SiGit, SiPrisma, SiTypescript } from "react-icons/si";
 
 const Home = ({ portfolioData }) => {
   const skillIcons = {
@@ -11,6 +11,11 @@ const Home = ({ portfolioData }) => {
     MongoDB: <SiMongodb className="text-green-700" />,
     MySQL: <SiMysql className="text-blue-600" />,
     PostgreSQL: <SiPostgresql className="text-blue-400" />,
+    TypeScript: <SiTypescript className="text-blue-500" />,
+    "Nest.js": <SiNestjs className="text-red-600" />,
+    Git: <SiGit className="text-orange-600" />,
+    Docker: <SiDocker className="text-blue-500" />,
+    Prisma: <SiPrisma className="text-indigo-500" />
   };
 
   return (
@@ -20,7 +25,7 @@ const Home = ({ portfolioData }) => {
         <div className="flex justify-end mb-2   ">
           <button className="border border-gray-500 font-semibold text-lg rounded-lg py-2 px-2  h-15 w-30 bg-gray-400 focus:outline-none focus:ring focus:ring-gray-500 hover:bg-slate-400 ">
             <a
-              href="https://drive.google.com/file/d/15vGGS2GWPq29A4qsIdLTGIvzmIbLUUyl"
+              href="https://drive.google.com/file/d/1Q85HhdA-urmu5Z-_3dcuDsLQjyZ2ksPF/view?usp=drivesdk"
               target="blank"
             >
               Resume

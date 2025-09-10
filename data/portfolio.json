@@ -4,19 +4,56 @@
       "name": "Alabi Abdullahi Ayodeji",
       "description": "Software Engineer",
       "skills": [
-        { "id": 1, "name": "JavaScript" },
-        { "id": 2, "name": "React" },
-        { "id": 3, "name": "Node.js" },
-        { "id": 4, "name": "Express.js" },
-        { "id": 5, "name": "MongoDB" },
-        { "id": 6, "name": "MySQL" },
-        { "id": 7, "name": "PostgreSQL" }
+        {
+          "id": 1,
+          "name": "JavaScript"
+        },
+        {
+          "id": 3,
+          "name": "Node.js"
+        },
+        {
+          "id": 4,
+          "name": "TypeScript"
+        },
+        {
+          "id": 5,
+          "name": "Nest.js"
+        },
+        {
+          "id": 6,
+          "name": "Express.js"
+        },
+        {
+          "id": 7,
+          "name": "MongoDB"
+        },
+        {
+          "id": 8,
+          "name": "MySQL"
+        },
+        {
+          "id": 9,
+          "name": "PostgreSQL"
+        },
+        {
+          "id": 10,
+          "name": "Prisma"
+        },
+        {
+          "id": 11,
+          "name": "Git"
+        },
+        {
+          "id": 12,
+          "name": "Docker"
+        }
       ],
       "projects": [
         {
           "name": "Health and Beauty plus",
           "description": "developed a fully responsive e-commerce platform using React.js, focused on delivering an engaging shopping experience. This project features a clean and user-friendly interface, allowing users to effortlessly browse and filter a diverse selection of products.",
-          "technologies": "React",
+          "technologies": "ReactJS",
           "link": "https://www.healthandbeautyplus.online/"
         },
         {
@@ -26,16 +63,22 @@
           "link": "https://eventful-zeta.vercel.app/"
         },
         {
-          "name": "JoyfulJots",
-          "description": "This project is a birthday reminder and email notification system built with Node.js and Express, integrated with MongoDB for database management. It is designed to automatically send personalized birthday greetings to registered users via email on their birthday. The system runs a scheduled job daily at 7:00 AM, checking user records for any birthdays that match the current date.",
-          "technologies": "Node.js, MongoDB, EJS",
-          "link": "https://joyfuljots.onrender.com/register"
+          "name": "Finance Tracker",
+          "description": "A CSC420(Software Enginnering) project that allows users to track their income and expenses, providing insights into their financial habits. Users can add, edit, and delete transactions, and view a summary of their financial status.",
+          "technologies": "React, Node.js, MongoDB",
+          "link": "https://finance-tracker-one-zeta.vercel.app/"
         },
         {
-          "name": "MovieDB",
-          "description": "This project is a dynamic movie discovery platform built with JavaScript, utilizing The Movie Database (TMDB) API to provide users with up-to-date information on movies, including details such as ratings, descriptions, trailers, and release dates. The platform allows users to explore popular movies, search for specific titles, and view detailed information about each film.",
-          "technologies": "Javascript, TMDB API",
-          "link": "https://moviedb-ltx4.onrender.com/"
+          "name": "Campus Guard",
+          "description": "A security management system designed to enhance safety in the university of ilorin, kwara state, Nigeria. The platform allows both autheticated users and anonymous user to report incidents, ensuring a secure environment for all University of ilorin students.",
+          "technologies": "React, Node.js, Prisma+MongoDB",
+          "link": "https://campus-guard.vercel.app/"
+        },
+          {
+          "name": "Social Media Micro-service API",
+          "description": "A nodejs project to understand how the micro-service architecture works. The project is a social media API that allows authenticated user to post contents and media. RabbitMQ was used for message queuing and express-http-proxy was used to handle the proxy for each service to the api-gateway.",
+          "technologies": "Node.js, MongoDB, RabbitMQ, Docker",
+          "link": "https://campus-guard.vercel.app/"
         }
       ]
     }
